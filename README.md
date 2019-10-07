@@ -15,8 +15,10 @@ Design system for components
 
 ```vue
 <template>
-  <app-button label="Cancel" />
-  <app-login-button />
+  <div>
+    <app-button label="Cancel" />
+    <app-login-button />
+  </div>
 </template>
 
 <script>
