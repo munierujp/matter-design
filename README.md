@@ -109,3 +109,20 @@ export default {
 }
 </script>
 ```
+
+## Badge
+You can use the badge to show that your project is using Matter Design.
+
+[![using Matter Design](https://img.shields.io/badge/using-Matter%20Design-brightgreen)](https://github.com/munierujp/matter-design)
+
+Markdown:
+
+```md
+[![using Matter Design](https://img.shields.io/badge/using-Matter%20Design-brightgreen)](https://github.com/munierujp/matter-design)
+```
+
+HTML:
+
+```html
+<a href="https://github.com/munierujp/matter-design"><img src="https://img.shields.io/badge/using-Matter%20Design-brightgreen" alt="using Matter Design"></a>
+```
