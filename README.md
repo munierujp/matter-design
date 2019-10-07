@@ -2,9 +2,9 @@
 Design system for components
 
 ## Component types
-* Pages - page components
-* Matters - concrete components
-* Elements - abstract components like HTML elements
+* **Pages** - page components
+* **Matters** - concrete components
+* **Elements** - abstract components like HTML elements
 
 ## Example
 ### Nuxt.js
