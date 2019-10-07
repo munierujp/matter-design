@@ -1,4 +1,4 @@
-# matter-design
+# Matter Design
 Design system for components
 
 ## Component types
