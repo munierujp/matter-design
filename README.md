@@ -10,7 +10,32 @@ Design system for components
 
 ## Example
 ### Nuxt.js
+```
+.
+├── components
+│   │── elements
+│   │   └── AppButton.vue
+│   └── matters
+│       └── AppLoginButton.vue
+├── layouts
+│   ├── default.vue
+└── pages
+    └── index.vue
+```
+
 #### Pages
+`layouts/default.vue`:
+
+```vue
+<template>
+  <div id="app">
+    <main>
+      <nuxt />
+    </main>
+  </div>
+</template>
+```
+
 `pages/index.vue`:
 
 ```vue
