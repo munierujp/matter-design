@@ -4,9 +4,12 @@ Design system for components
 ## Component types
 * **Elements** - abstract components like HTML elements
   * e.g. `<app-button>`
+  * contains Elements
 * **Matters** - concrete components
   * e.g. `<app-login-button>`
+  * contains Elements, Matters
 * **Pages** - page components
+  * contains Elements, Matters
 
 ## Example
 ### Nuxt.js
