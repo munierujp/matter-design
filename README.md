@@ -21,7 +21,7 @@ Design system for components
 │   └── matters
 │       └── AppLoginButton.vue
 ├── layouts
-│   ├── default.vue
+│   └── default.vue
 └── pages
     └── index.vue
 ```
