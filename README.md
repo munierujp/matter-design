@@ -31,7 +31,9 @@ Design system for components
 
 ```vue
 <template>
-  <button @click="click">{{ label }}</button>
+  <button @click="click">
+    <slot />
+  </button>
 </template>
 
 <script>
@@ -56,7 +58,7 @@ export default {
 
 ```vue
 <template>
-  <app-button label="Login" @click="login" />
+  <app-button @click="login">Login</app-button>
 </template>
 
 <script>
@@ -92,7 +94,7 @@ export default {
 ```vue
 <template>
   <div>
-    <app-button label="Cancel" />
+    <app-button>Cancel</app-button>
     <app-login-button />
   </div>
 </template>
