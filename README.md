@@ -38,12 +38,6 @@ Pages are page components. These can contain Elements, Matters.
 
 <script>
 export default {
-  props: {
-    label: {
-      type: String,
-      required: true
-    }
-  },
   methods: {
     click (e) {
       this.$emit('click', e)
